@@ -1,0 +1,33 @@
+{
+  "name": "glossary-panel",
+  "author": "18F",
+  "contributors": [
+    "Josh Carp <joshua.carp@gsa.gov>",
+    "Noah Manger <noah.manger@gsa.gov"
+  ],
+  "version": "1.0.0",
+  "description": "18F Site Glossary Panel",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/18F/glossary.git"
+  },
+  "scripts": {
+    "start": "parcel example/index.html",
+    "test": "mochify tests/glossary.js"
+  },
+  "dependencies": {
+    "aria-accordion": "^1.1.0",
+    "list.js": "^1.5.0",
+    "object-assign": "^4.1.1"
+  },
+  "main": "src/glossary.js",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mochify": "^6.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/18f/glossary/issues"
+  },
+  "license": "SEE LICENSE IN README.md"
+}
